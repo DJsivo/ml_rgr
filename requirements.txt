@@ -1,0 +1,15 @@
+# Основные библиотеки
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy<2.0.0
+matplotlib
+seaborn
+plotly
+
+# ML стек (используем cpu-версию для облака)
+tensorflow-cpu==2.16.1
+scikit-learn>=1.3.0
+catboost>=1.2.0
+
+# Фикс для корректной работы протоколов
+protobuf>=3.20,<5.0
